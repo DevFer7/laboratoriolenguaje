@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+*{
+    padding: 10px;
+}
+.fuente1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fuente2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fuente3{
+    font-style: italic;
+}
+.fuente4{
+    font-style: oblique;
+}
+.fuente5{
+    font-style: normal;
+}
+.fuente6{
+    font-weight: bold;
+}
+.fuente7{
+    font-weight: bolder;
+}
+.fuente8{
+    font-variant: small-caps;
+}
+.fuente9{
+    font-variant: normal;
+}
+.fuente10{
+    font-size: 30px;
+}
+@font-face {
+    font-family: "pixel";
+    src: url(/fonts/PixelifySans-Bold.ttf);
+}
+@font-face {
+    font-family: "yserif";
+    src: url(/fonts/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: "pixel2";
+    src: url(/fonts/PixelifySans-Medium.ttf);
+}
+.fuente11{
+    font-family: Croissant One;
+}
+.fuente12{
+    font-family: yserif;
+}
+.fuente13{
+    font-family: pixel2;
+}
+.fuente14{
+    font-family: pixel;
+}

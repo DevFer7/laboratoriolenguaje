@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sedgwick+Ave+Display&display=swap');
+@import url(https://db.onlinewebfonts.com/c/5f8a2b205070bcd92fd9d2851310161d?family=Franklin+Gothic+Std+Extra+Condensed);
+.inicio{
+    margin-left: 190px;
+    margin-top: -33px;
+}
+.inicio1{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -155px;
+    font-family: Original Surfer;
+    padding-bottom: 35px;
+}
+.encabezado{
+    padding-bottom: 50px;
+}
+.borde1{
+    width: 300px;
+    height: 650px;
+    margin-left: 190px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: #EABB59;
+}
+.pro1{
+    position: absolute;
+    font-family: "Franklin Gothic Std Extra Condensed";
+    margin-left: 280px;
+    margin-top: -600px;
+    font-size: 117px;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+}
+.pro2{
+    position: absolute;
+    font-family: "Franklin Gothic Std Extra Condensed";
+    margin-left: 600px;
+    margin-top: -600px;
+    font-size: 117px;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+}
+.pro3{
+    position: absolute;
+    font-family: "Franklin Gothic Std Extra Condensed";
+    margin-left: 950px;
+    margin-top: -600px;
+    font-size: 117px;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+}
+.borde2{
+    width: 300px;
+    height: 650px;
+    margin-left: 520px;
+    margin-top: -650px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: #EABB59;
+}
+.borde3{
+    width: 300px;
+    height: 650px;
+    margin-left: 870px;
+    margin-top: -650px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: #EABB59;
+}
+.evento2{
+    margin-bottom: 361px;
+}
+.evento3{
+    margin-bottom: 361px;
+}
+.evento4{
+    margin-bottom: 361px;
+}
+.evento5{
+    position: absolute;
+    top: 1400px;
+    left: 450px;
+}
+.evento6{
+    position: absolute;
+    top: 1400px;
+    left: 690px;
+}
+.evento7{
+    position: absolute;
+    top: 1400px;
+    left: 950px;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 50px;
+}
+/* MENU */
+header{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Sedgwick Ave Display;
+    font-size: 22px;
+}
+li a{
+    float: left;
+    display: inline-block;
+    color: #ceab51;
+    padding: 10px 45px;
+    text-decoration: none;
+}
+li{
+    text-align: center;
+    display: inline-block;
+}
+/* quitamos borde al ultimo li */
+li:last-child{
+    border-bottom: none;
+}
+/* le asignamos valores cuando esta activado */
+li a.active{
+    background-color: orange;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    color: white;
+}
+.black{
+    color: black;
+}

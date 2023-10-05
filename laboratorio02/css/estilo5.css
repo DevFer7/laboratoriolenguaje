@@ -1,0 +1,84 @@
+/* damos color de fondo a caja1 */
+.caja1{
+    background-color: aqua;
+}
+.caja2{
+    background-image: url("/img/html.jpg");
+}
+.caja3{
+    background-color: blue;
+    opacity: 45%;
+    color:aliceblue
+}
+.caja4{
+    background-image: url("/img/html.jpg");
+    opacity: 15%;
+}
+.caja5{
+    background-image: url("/img/html.svg");
+    background-repeat: no-repeat;
+}
+.caja6{
+    background-image: url("/img/html.jpg");
+    background-size: 20px;
+    background-repeat: repeat-x;
+}
+.caja7{
+    background-image: url("/img/html.jpg");
+    background-size: 20px;
+    background-repeat: repeat-y;
+}
+.parrafoimgcentrar{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parrafoimgizquierda{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.parrafoimgderecha{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.parrafoimgsuperior{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.parrafoimginferior{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.parrafoimgsupizq{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.parrafoimgsupder{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.parrafoimginfder{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.parrafoimginfizq{
+    background-image: url("/img/html.jpg");
+    background-size: 60px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}

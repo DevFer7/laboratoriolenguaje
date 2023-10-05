@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+/* PARTE1 */
+h1{
+    font-family: Playfair Display;
+    font-size: 60px;
+}
+main{
+    text-align: center;
+    color: black;
+    margin-right: 510px;
+}
+.parte1{
+    padding-top: 50px;
+    background-color: white;
+    height: 300px;
+}
+.parte1 img{
+    position: absolute;
+    margin-left: 740px;
+    top: 140px;
+}
+/* PARTE2 */
+.parte2{
+    height: 250px;
+}
+.contactus{
+    font-size: 60px;
+    font-family: 'Montserrat';
+    margin-left: 850px;
+    margin-top: 140px;
+}
+.contact1{
+    position: absolute;
+    left: 920px;
+    font-size: 20px;
+    top: 610px;
+}
+.followus{
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Montserrat';
+    top: 660px;
+    left: 860px;
+}
+.icon{
+    color: black;
+    position: absolute;
+    top: 840px;
+    left: 940px;
+    font-size: 50px;
+}
+/* PARTE3 */
+.imagen{
+    position: absolute;
+    margin-left: 50px;
+    top: 470px;
+}
+.i1{
+    position: absolute;
+    left: 50px;
+    top: 360px;
+}
+.i2{
+    position: absolute;
+    left: 300px;
+    top: 360px;
+}
+/* MENU */
+header {
+    background-color: black;
+    text-align: right;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    z-index: 1000; /* Asegura que el menú esté sobre otros elementos */
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Sedgwick Ave Display;
+    font-size: 26px;
+
+}
+.hg{
+    position: absolute;
+    color: #eabb59;
+    font-family: Sedgwick Ave Display;
+    font-size: 30px;
+    top: -28px;
+    left: 50px;
+}
+li {
+    display: inline-block;
+    margin-right: 20px; /* Agrega espacio entre los elementos del menú */
+}
+
+li a{
+
+    color: #ceab51;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+/* quitamos borde al ultimo li */
+li:last-child{
+    border-right: none;
+}
+/* le asignamos valores cuando esta activado */
+li a.active{
+    background-color: orange;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    color: white;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 50px;
+    font-family: Roboto;
+}
+footer img{
+    position: absolute;
+    left: 350px;
+    top: 1250px;
+}
+.fof{
+    position: absolute;
+    top: 1330px;
+    left: 650px;
+}
+.black{
+    color: black;
+}

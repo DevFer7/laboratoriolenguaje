@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(https://db.onlinewebfonts.com/c/5f8a2b205070bcd92fd9d2851310161d?family=Franklin+Gothic+Std+Extra+Condensed);
+/* Header */
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:cyan;
+    text-align: center;
+
+}
+.encabezado{
+    background-color: #004120;
+    height: 600px;
+}
+.i1{
+    position: absolute;
+    left: 170px;
+    bottom: 0;
+}
+.i1m{
+    position: absolute;
+    left: 290px;
+    top: 90px;
+}
+.i2m{
+    position: absolute;
+    left: 320px;
+    top: 330px;
+}
+.i2{
+    position: absolute;
+    left: 430px;
+    top: 150px;
+}
+.i3{
+    position: absolute;
+    left: 400px;
+    top: 380px;
+}
+/* parte1 */
+.parte1 img{
+    margin-left: 210px;
+}
+.gringas{
+    font-family: "Franklin Gothic Std Extra Condensed";
+    margin-left: 530px;
+    margin-top: -610px;
+    font-size: 150px;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+}
+.t1, .t2, .t3, .t4{
+    text-align: justify;
+    margin-left: 800px;
+    margin-top: -210px;
+}
+.pizzas{
+    position: absolute;
+    left: 550px;
+    bottom: -690px;
+}
+/* parte2 */
+.parte2{
+    height: 665px;
+    background-color: #eabb59;
+    margin-top: 542px;
+}
+.a1, .a2, .a3{
+    text-align: justify;
+    margin-left: 210px;
+    font-size: 15px;
+    font-family: roboto;
+}
+.compromiso{
+    font-family: "Franklin Gothic Std Extra Condensed";
+    font-size: 65px;
+    margin-left: 210px;
+    padding-top:55px ;
+}
+.calabera{
+    position: absolute;
+    margin: 0;
+    left: 380px;
+    top: 1365px;
+}
+.inicio2{
+    margin-left: 850px;
+    margin-top: -503px;
+}
+.menu{
+    position: absolute;
+    border: 2px;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 20px 40px;
+    border-radius: 500px;
+    margin-left: -950px;
+    margin-top: 25px;
+    color: white;
+    background-color: #004120;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    z-index: 1;
+}
+.menu:hover{
+    background-color: black;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+/* parte3 */
+.fondo3{
+    position: relative;
+    opacity: calc(0.1);
+    z-index: 1;
+    height: 660px;
+}
+.delivery{
+    position: absolute;
+    right: 350px;
+    top: 2050px;
+    z-index: 1;
+}
+.takeaway{
+    position: absolute;
+    border: 2px;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 20px 40px;
+    border-radius: 500px;
+    left: 420px;
+    top: 2240px;
+    color: white;
+    background-color: #eabb59;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    z-index: 1;
+}
+.takeaway:hover{
+    background-color: black;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.rappi{
+    position: absolute;
+    border: 2px;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 20px 40px;
+    border-radius: 500px;
+    left: 720px;
+    top: 2240px;
+    color: white;
+    background-color: #eabb59;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    z-index: 1;
+}
+.rappi:hover{
+    background-color: black;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.final3{
+    position: absolute;
+    left: 340px;
+    top: 2350px;
+}
+/* parte4 */
+.parte4{
+    background-color: #004120;
+    height: 700px;
+    text-align: center;
+}
+.ubi{
+    color: white;
+    font-family: "Franklin Gothic Std Extra Condensed";
+    margin-top: 20px;
+    margin-right: 550px;
+    font-size: 90px;
+    text-shadow: 10px 5px black;
+}
+.ubi2{
+    color: white;
+    font-family: "Franklin Gothic Std Extra Condensed";
+    text-align: justify;
+    margin-top: -60px;
+    margin-left: 250px;
+    font-size: 30px;
+}
+.ubi3{
+    color: white;
+    font-family: "Franklin Gothic Std Extra Condensed";
+    text-align: justify;
+    margin-top: -20px;
+    margin-left: 250px;
+    font-size: 26px;
+    font-style: italic;
+}
+.ubicacion{
+    position: absolute;
+    margin-left: 2px;
+    margin-top: -435px;
+}
+/* MENU */
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Sedgwick Ave Display;
+    font-size: 22px;
+}
+li a{
+    float: left;
+    display: inline-block;
+    color: #ceab51;
+    padding: 10px 45px;
+    text-decoration: none;
+}
+li{
+    text-align: center;
+    display: inline-block;
+}
+/* quitamos borde al ultimo li */
+li:last-child{
+    border-bottom: none;
+}
+/* le asignamos valores cuando esta activado */
+li a.active{
+    background-color: orange;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    color: white;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 50px;
+}
+.black{
+    color: black;
+}

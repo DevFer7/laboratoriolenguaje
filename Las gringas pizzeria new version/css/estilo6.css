@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sedgwick+Ave+Display&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 1366px;
+    height: 101px;
+}
+h1{
+    font-size: 160px;
+    margin-left: 30px;
+    margin-top: 65px;
+}
+.inicio1{
+    font-family: Original Surfer;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: -90px;
+}
+.img1{
+    position: absolute;
+    width: 400px;
+    left: 950px;
+    top: 90px;
+}
+.texto1{
+    margin-left: 30px;
+    margin-top: 150px;
+    font-size: 60px;
+}
+
+.img2{
+    text-align: right;
+    margin-top: -20px;
+    margin-right: 80px;
+    align-items: center;
+}
+.gringas{
+    position: absolute;
+    top: 700px;
+    left: 20px;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 50px;
+    font-family: Roboto;
+}
+footer img{
+    position: absolute;
+    left: 350px;
+    top: 1010px;
+}
+.fof{
+    position: absolute;
+    top: 1090px;
+    left: 650px;
+}
+/* MENU */
+header {
+    background-color: #030303;
+    text-align: right;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    height: 36px;
+    z-index: 1000; /* Asegura que el menú esté sobre otros elementos */
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Sedgwick Ave Display;
+    font-size: 26px;
+}
+.hg{
+    position: absolute;
+    color: #eabb59;
+    font-family: Sedgwick Ave Display;
+    font-size: 30px;
+    top: -28px;
+    left: 50px;
+}
+li {
+    display: inline-block;
+    margin-right: 20px; /* Agrega espacio entre los elementos del menú */
+}
+
+li a{
+    color: #ceab51;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+/* quitamos borde al ultimo li */
+li:last-child{
+    border-right: none;
+    padding-right: 17px;
+}
+/* le asignamos valores cuando esta activado */
+li a.active{
+    background-color: orange;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    color: white;
+}
+.black{
+    color: black;
+}

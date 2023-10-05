@@ -1,0 +1,34 @@
+.degradado1{
+    width: 500px;
+    height: 250px;
+    background:repeating-linear-gradient(to bottom, blue, blueviolet);
+}
+.degradado2{
+    width: 500px;
+    height: 250px;
+    background:repeating-linear-gradient(to left, red, orange);
+}
+.degradado3{
+    width: 500px;
+    height: 250px;
+    background:repeating-linear-gradient(to right, green, black);
+}
+.degradado4{
+    width: 500px;
+    height: 250px;
+    background:repeating-linear-gradient(to top, yellow, cyan);
+}
+
+/* combinacion de degradados */
+
+.degradado5{
+    width: 500px;
+    height: 250px;
+    background:repeating-linear-gradient(to top, red, orange,yellow,green,blue,black);
+}
+/* degradado radial */
+.degradado6{
+    width: 500px;
+    height: 250px;
+    background:-moz-repeating-radial-gradient(red,orange,yellow,green,blue)
+}

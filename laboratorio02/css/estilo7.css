@@ -1,0 +1,210 @@
+/* Agregamos borde de tipo dotted */
+.borde1{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: dotted;
+}
+/* Agregamos borde de tipo dashed */
+.borde2{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: dashed;
+}
+/* Agregamos borde de tipo solid */
+.borde3{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: solid;
+}
+/* Agregamos borde de tipo double */
+.borde4{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: double;
+}
+/* Agregamos borde de tipo grouble */
+.borde5{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: groove;
+}
+/* Agregamos borde de tipo ridge */
+.borde6{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: ridge;
+}
+/* Agregamos borde de tipo inset */
+.borde7{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: inset;
+}
+/* Agregamos borde de tipo outset */
+.borde8{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: outset;
+}
+/* Agregamos borde de tipo none */
+.borde9{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: none;
+}
+/* Agregamos borde de tipo hidden */
+.borde10{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: hidden;
+}
+/* Para combinar valores la sintaxis es:
+2 valores: (arriba y abajo) (izquierda y derecha)
+3 valores: (arriba ) (izquierda y derecha) (abajo)
+4 valores: (arriba ) (derecha) (abajo) (izquierda) */
+/* Agregamos 2 estilos */
+.borde11{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: dotted groove;
+}
+/* Agregamos 3 estilos */
+.borde12{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: dotted solid groove;
+}
+/* Agregamos 4 estilos */
+.borde13{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-style: dotted solid dashed groove;;
+}
+/* Agregamos borde arriba */
+.borde14{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-top-style: solid;
+}
+/* Agregamos borde abajo */
+.borde15{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-bottom-style: solid;
+}
+/* Agregamos borde izquierda */
+.borde16{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-left-style: solid;
+}
+/* Agregamos borde derecha */
+.borde17{
+    width: 800px;
+    height: 200px;
+    background-color: skyblue;
+    border-right-style: solid;
+}
+/* Agregamos color al borde */
+.borde18{
+    width: 800px;
+    height: 200px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: blue;
+}
+/* Agregamos color al borde con 2 colores */
+.borde19{
+    width: 800px;
+    height: 200px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: blue blueviolet;
+}
+/* Agregamos color al borde con 3 colores */
+.borde20{
+    width: 800px;
+    height: 200px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: blue blueviolet greenyellow;
+}
+/* Agregamos color al borde con 4 colores */
+.borde21{
+    width: 800px;
+    height: 200px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: blue blueviolet orange greenyellow;
+}
+/* Ancho borde 1 valor */
+.borde22{
+    width: 800px;
+    height: 200px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: red;
+    border-width: 15px;
+}
+/* Ancho borde 1 tipo */
+.borde23{
+    width: 800px;
+    height: 200px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: red;
+    border-width: medium;
+}
+/* Ancho borde 4 valores */
+.borde24{
+    width: 800px;
+    height: 200px;
+    background-color: aliceblue;
+    border-style: solid dashed dotted double;
+    border-color: red blue green yellow;
+    border-width: 5px 10px 15px 30px;
+}
+/* redondeado de 1 valor */
+.borde25{
+    width: 800px;
+    height: 200px;
+    background-color: aliceblue;
+    border-style: solid ;
+    border-color: red ;
+    border-width: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/* redondeado de 4 valor */
+.borde26{
+    width: 800px;
+    height: 200px;
+    background-color: aliceblue;
+    border-style: solid ;
+    border-color: red ;
+    border-width: 15px;
+    border-radius: 10px 20px 30px 40px;
+    -webkit-border-radius: 10px 20px 30px 40px;
+    -moz-border-radius: 10px 20px 30px 40px;
+    -ms-border-radius: 10px 20px 30px 40px;
+    -o-border-radius: 10px 20px 30px 40px;
+}

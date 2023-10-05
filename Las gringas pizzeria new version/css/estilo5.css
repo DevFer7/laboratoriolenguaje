@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Tangerine&display=swap');
+@import url(https://db.onlinewebfonts.com/c/5f8a2b205070bcd92fd9d2851310161d?family=Franklin+Gothic+Std+Extra+Condensed);
+.inicio{
+    margin-left: 190px;
+    margin-top: -33px;
+}
+nav{
+    background-color: black;
+}
+.eventos{
+    position: absolute;
+    top: -15px;
+    color: #eabb59;
+    font-size: 110px;
+    left: 420px;
+    font-family: Playfair Display;
+}
+.inicio1{
+    position: absolute;
+    top: 250px;
+    left: 440px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Original Surfer;
+    padding-bottom: 35px;
+}
+.encabezado{
+    padding-bottom: 50px;
+}
+.borde1{
+    width: 850px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 150px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: #EABB59;
+}
+.pro1{
+    position: absolute;
+    font-family: "Franklin Gothic Std Extra Condensed";
+    margin-left: 80px;
+    margin-top: -240px;
+    font-size: 170px;
+}
+.borde2{
+    width: 850px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: #EABB59;
+}
+.pro2{
+    position: absolute;
+    font-family: "Franklin Gothic Std Extra Condensed";
+    margin-left: 80px;
+    margin-top: -240px;
+    font-size: 170px;
+}
+.borde3{
+    width: 850px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: #EABB59;
+}
+.pro3{
+    position: absolute;
+    font-family: "Franklin Gothic Std Extra Condensed";
+    margin-left: 80px;
+    margin-top: -240px;
+    font-size: 170px;
+}
+.evento2{
+    position: absolute;
+    top: 410px;
+    left: 910px;
+}
+.evento3{
+    position: absolute;
+    top: 810px;
+    left: 910px;
+}
+.evento4{
+    position: absolute;
+    top: 410px;
+    left: 1110px;
+}
+.evento5{
+    position: absolute;
+    top: 1760px;
+    left: 110px;
+}
+.evento6{
+    position: absolute;
+    top: 1210px;
+    left: 980px;
+}
+.evento7{
+    position: absolute;
+    top: 1760px;
+    left: 990px;
+}
+.evento1{
+    position: absolute;
+    top: 1560px;
+    left: 450px;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 50px;
+    font-family: Roboto;
+}
+footer img{
+    position: absolute;
+    left: 350px;
+    top: 2280px;
+}
+.fof{
+    position: absolute;
+    top: 2380px;
+    left: 650px;
+}    
+/* MENU */
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #2167a8;
+    text-align: right;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    height: 250px;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: calc(5.5);
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Sedgwick Ave Display;
+    font-size: 26px;
+}
+.hg{
+    position: absolute;
+    color: #eabb59;
+    font-family: Sedgwick Ave Display;
+    font-size: 30px;
+    top: -28px;
+    left: 50px;
+}
+li {
+    display: inline-block;
+    margin-right: 20px; /* Agrega espacio entre los elementos del menú */
+}
+
+li a{
+
+    color: #ceab51;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+/* quitamos borde al ultimo li */
+li:last-child{
+    border-right: none;
+}
+/* le asignamos valores cuando esta activado */
+li a.active{
+    background-color: orange;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    color: white;
+}
+.black{
+    color: black;
+}

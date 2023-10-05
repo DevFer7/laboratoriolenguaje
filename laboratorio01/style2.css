@@ -1,0 +1,25 @@
+h1{
+    color: #2bd315;
+    font-family:"Josefin Sans";
+    text-align: center;
+}
+td, th{
+    text-align: center;
+    vertical-align: left;
+    border: 2px solid #2bd315;
+    padding: 8px;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+table{
+    border-radius: 5px;
+    border: 2px solid #2bd315   ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(1, 160, 9, 0.5);
+}

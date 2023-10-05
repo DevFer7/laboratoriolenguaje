@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sedgwick+Ave+Display&display=swap');
+header{
+    text-align: center;
+}
+nav{
+    width: 1366px;
+    height: 101px;
+}
+h1{
+    font-size: 160px;
+    margin-left: 180px;
+}
+.inicio1{
+    font-family: Original Surfer;
+    font-size: 18px;
+    margin-left: 740px;
+    margin-top: -250px;
+}
+.img1{
+    margin-left: 350px;
+}
+.texto1{
+    margin-left: 450px;
+    font-size: 60px;
+}
+.img2{
+    text-align: center;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 50px;
+}
+/* MENU */
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Sedgwick Ave Display;
+    font-size: 22px;
+}
+li a{
+    float: left;
+    display: inline-block;
+    color: #ceab51;
+    padding: 10px 45px;
+    text-decoration: none;
+}
+li{
+    text-align: center;
+    display: inline-block;
+}
+/* quitamos borde al ultimo li */
+li:last-child{
+    border-bottom: none;
+}
+/* le asignamos valores cuando esta activado */
+li a.active{
+    background-color: orange;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    color: white;
+}
+.black{
+    color: black;
+}

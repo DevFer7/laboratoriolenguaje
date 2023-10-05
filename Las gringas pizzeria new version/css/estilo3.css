@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Tangerine&display=swap');
+@import url(https://db.onlinewebfonts.com/c/5f8a2b205070bcd92fd9d2851310161d?family=Franklin+Gothic+Std+Extra+Condensed);
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 1366px;
+    height: 101px;
+}
+/* Parte 1 */
+.peruvian{
+    position: absolute;
+    left: 450px;
+    top: -50px;
+    font-size: 150px;
+    font-family: Playfair Display;
+    color: #dca939;
+    text-shadow: none;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.textoes{
+    text-align: justify;
+    width: 300px;
+    height: 55px;
+    margin-left: 290px ;
+    margin-top: 220px;
+    font-size: 42px;
+    color: white;
+    font-family: Tangerine;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.textoes1{
+    text-align: justify;
+    width: 300px;
+    height: 55px;
+    margin-left: 690px ;
+    margin-top: 50px;
+    font-size: 42px;
+    color: white;
+    font-family: Tangerine;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.iniciopz{
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 50px;
+}
+.iniciopizzeria{
+    font-family: Tangerine;
+    text-align: center;
+    font-size: 35px;
+}
+.pizza1{
+    position: absolute;
+    left: 35px;
+    top: 1000px;
+    width: 300px;
+    height: 300px;
+
+}
+.maiz{
+    font-family: Playfair Display;
+    position: absolute;
+    left: 370px;
+    top: 940px;
+    font-size: 60px;
+    color: black;
+}
+.maiz1{
+    font-family: sans-serif;
+    position: absolute;
+    left: 370px;
+    top: 1090px;
+    font-size: 15px;
+    color: black;
+}
+.pizza2{
+    position: absolute;
+    left: 760px;
+    top: 1000px;
+    width: 300px;
+    height: 300px;
+
+}
+.quinoa{
+    font-family: Playfair Display;
+    position: absolute;
+    left: 1080px;
+    top: 940px;
+    font-size: 60px;
+    color: black;
+}
+.quinoa1{
+    font-family: sans-serif;
+    position: absolute;
+    left: 1080px;
+    top: 1090px;
+    font-size: 15px;
+    color: black;
+}
+.pizza3{
+    position: absolute;
+    left: 35px;
+    top: 1400px;
+    width: 300px;
+    height: 300px;
+
+}
+.cañi{
+    font-family: Playfair Display;
+    position: absolute;
+    left: 340px;
+    top: 1340px;
+    font-size: 60px;
+    color: black;
+}
+.cañi2{
+    font-family: sans-serif;
+    position: absolute;
+    left: 340px;
+    top: 1480px;
+    font-size: 15px;
+    color: black;
+}
+.pizza4{
+    position: absolute;
+    left: 760px;
+    top: 1400px;
+    width: 300px;
+    height: 300px;
+
+}
+.gluten{
+    font-family: Playfair Display;
+    position: absolute;
+    left: 1080px;
+    top: 1340px;
+    font-size: 60px;
+    color: black;
+}
+.gluten1{
+    font-family: sans-serif;
+    position: absolute;
+    left: 1080px;
+    top: 1550px;
+    font-size: 15px;
+    color: black;
+}
+.pizza5{
+    position: absolute;
+    left: 35px;
+    top: 1800px;
+    width: 300px;
+    height: 300px;
+
+}
+.agua{
+    font-family: Playfair Display;
+    position: absolute;
+    left: 340px;
+    top: 1730px;
+    font-size: 60px;
+    color: black;
+}
+.agua1{
+    font-family: sans-serif;
+    position: absolute;
+    left: 340px;
+    top: 1860px;
+    font-size: 15px;
+    color: black;
+}
+.pizza6{
+    position: absolute;
+    left: 760px;
+    top: 1800px;
+    width: 300px;
+    height: 300px;
+
+}
+.queso{
+    font-family: Playfair Display;
+    position: absolute;
+    left: 1070px;
+    top: 1730px;
+    font-size: 60px;
+    color: black;
+}
+.queso1{
+    font-family: sans-serif;
+    position: absolute;
+    left: 1070px;
+    top: 1930px;
+    font-size: 15px;
+    color: black;
+}
+.pizza7{
+    position: absolute;
+    left: 310px;
+    top: 2150px;
+    width: 300px;
+    height: 300px;
+
+}
+.germinado{
+    font-family: Playfair Display;
+    position: absolute;
+    left: 650px;
+    top: 2150px;
+    font-size: 60px;
+    color: black;
+}
+.germinado1{
+    font-family: sans-serif;
+    position: absolute;
+    left: 650px;
+    top: 2290px;
+    font-size: 15px;
+    color: black;
+}
+/* final */
+footer{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 50px;
+    font-family: Roboto;
+}
+footer img{
+    position: absolute;
+    left: 350px;
+    top: 2480px;
+}
+.fof{
+    position: absolute;
+    top: 2540px;
+    left: 650px;
+}    
+/* MENU */
+header {
+    background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    text-align: right;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    height: 710px;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: calc(5.5);
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Sedgwick Ave Display;
+    font-size: 26px;
+}
+.hg{
+    position: absolute;
+    color: #eabb59;
+    font-family: Sedgwick Ave Display;
+    font-size: 30px;
+    top: -28px;
+    left: 50px;
+}
+li {
+    display: inline-block;
+    margin-right: 20px; /* Agrega espacio entre los elementos del menú */
+}
+
+li a{
+
+    color: #ceab51;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+/* quitamos borde al ultimo li */
+li:last-child{
+    border-right: none;
+    padding-right: 17px;
+}
+/* le asignamos valores cuando esta activado */
+li a.active{
+    background-color: orange;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    color: white;
+}
+.black{
+    color: black;
+}

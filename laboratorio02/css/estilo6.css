@@ -1,0 +1,10 @@
+/* width = Ancho
+height = Largo */
+.caja1{
+    width: 800px;
+    background-color: blue;
+}
+.caja2{
+    height: 600px;
+    background-color: green;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+/* PARTE1 */
+h1{
+    font-family: Gabarito;
+    font-size: 60px;
+}
+main{
+    text-align: center;
+    color: black;
+    margin-right: 510px;
+}
+.parte1{
+    padding-top: 50px;
+    background-color: white;
+    height: 300px;
+}
+.parte1 img{
+    position: absolute;
+    margin-left: 740px;
+    top: 140px;
+}
+/* PARTE2 */
+.parte2{
+    height: 250px;
+}
+.contactus{
+    font-size: 40px;
+    font-family: 'Montserrat';
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.contact1{
+    margin-left: -590px;
+    text-align: center;
+}
+.followus{
+    font-size: 40px;
+    font-family: 'Montserrat';
+    margin-left: 800px;
+    margin-top: -93px;
+}
+.icon{
+    color: black;
+    margin-left: 880px;
+    margin-top: -50px;
+    font-size: 50px;
+}
+/* PARTE3 */
+.imagen{
+    text-align: center;
+    background-color: #004120;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* MENU */
+header{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Sedgwick Ave Display;
+    font-size: 22px;
+}
+li a{
+    float: left;
+    display: inline-block;
+    color: #ceab51;
+    padding: 10px 45px;
+    text-decoration: none;
+}
+li{
+    text-align: center;
+    display: inline-block;
+}
+/* quitamos borde al ultimo li */
+li:last-child{
+    border-bottom: none;
+}
+/* le asignamos valores cuando esta activado */
+li a.active{
+    background-color: orange;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    color: white;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 50px;
+}
+.black{
+    color: black;
+}
